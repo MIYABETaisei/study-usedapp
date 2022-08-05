@@ -5,7 +5,7 @@ import "@nomicfoundation/hardhat-toolbox";
 
 const networks: { [key: string]: any } = {
   goerli: {
-    url: process.env.ALCHEMY_KINKEBY_URL,
+    url: process.env.ALCHEMY_GOERLI_URL,
     accounts: [process.env.ACCOUNT_PRIVATE_KEY],
   },
 };
